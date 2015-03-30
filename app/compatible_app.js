@@ -1,4 +1,4 @@
-//解决ios双击网面上移问题
+//解决ios双击页面上移问题
 //在项目中测试不紧input/button这些表单控件有这个问题，p,div等也有问题，于是乎就直接在body开刀了
 (function()
 {
@@ -60,7 +60,7 @@
     };
 })(Zepto);
 
-usage:
+//usage:
 $(selector).doubletap(
     /** doubletap-dblclick callback */
     function(event){
